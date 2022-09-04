@@ -33,7 +33,7 @@ form.onsubmit = async function (event){
         if(res.status == 200){
             localStorage.setItem('token', res.token)
             localStorage.setItem('user', JSON.stringify(res.data))
-            window.location.replace('admin.html')
+            window.location.replace('subjects.html')
         } else {
             alert(res.message)
         }
