@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>DTM</title>
+</head>
+<body>
+    <ul class="container nav">
+        <li class="nav__item">
+            <a target="_blank" href="subjects.html" class="nav__item__link">Subjects</a>
+        </li>
+        <li class="nav__item">
+            <a target="_blank" href="admin.html" class="nav__item__link">Results</a>
+        </li>
+    </ul>
+    <section class="container balls">
+        <div class="balls__header">
+            <h1 class="balls__title">Songi imtihon g'oliblari</h1>
+            <button class="balls__filter"><img src="../Img/filter.png" alt="filter">Filtr</button>
+        </div>
+
+        <div class="reyting__nav">
+            <h4 class="reyting__nav__title reyting__nav__id">ID</h4>
+            <h4 class="reyting__nav__title">Ismi</h4>
+            <h4 class="reyting__nav__title">Yonalish</h4>
+            <h4 class="reyting__nav__title">Sana</h4>
+            <h4 class="reyting__nav__title reyting__nav__id">Ball</h4>
+            <h4 class="reyting__nav__title">Vaqt</h4>
+        </div>
+        <div class="reyting" id="reytingList">
+            <div class="reyting__nav">
+                <h4 class="reyting__nav__title reyting__nav__id">1</h4>
+                <h4 class="reyting__nav__title">Navruz</h4>
+                <h4 class="reyting__nav__title">Moliya</h4>
+                <h4 class="reyting__nav__title">23.03.2022</h4>
+                <h4 class="reyting__nav__title reyting__nav__id">189</h4>
+                <h4 class="reyting__nav__title">156 min</h4>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </section>
+    <template id="reyting-template">
+        <div class="reyting__nav">
+            <h4 id="reytingId" class="reyting__nav__title reyting__nav__id">1</h4>
+            <h4 id="username" class="reyting__nav__title">Navruz</h4>
+            <h4 id="faculty" class="reyting__nav__title">Moliya</h4>
+            <h4 id="reytingDate" class="reyting__nav__title">23.03.2022</h4>
+            <h4 id="scoreBall" class="reyting__nav__title reyting__nav__id">189</h4>
+            <h4 id="time" class="reyting__nav__title">156 min</h4>
+        </div>
+    </template>
+</body>
+<script src="../js/reyting.js"></script>
+</html>

@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #000000;
+    & > img {
+        margin-right: 20px;
+    }
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+.container{
+    max-width: 1250px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.nav__btn__link {
+    text-decoration: none
+}
+
+@import "./result";
+@import "./content";
+@import "./institut";
+@import "./admin";
+@import "./asosiy";
+@import "./login";
+@import "./tests";
+@import "./reytings";

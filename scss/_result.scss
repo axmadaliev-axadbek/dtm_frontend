@@ -1,0 +1,89 @@
+.javoblar {
+    margin-top: 20px;
+    &__title{
+        font-size: 35px;
+        line-height: 52px;
+        margin-top: 60px;
+    }
+    .logo {
+        width: 154px;
+        height:40px;
+    }
+    .result {
+        width: 80%;
+        height: 130px;
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        &__block {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__fan {
+                font-size: 24px;
+                line-height: 36px;
+                width: 150px;
+            }
+        }
+        &__line1 {
+            width: 60%;
+            height: 5px;
+            position: relative;
+            border: 1.5px solid #C4C4C4;
+            // background: -webkit-linear-gradient(left, #3575f4 75%,#ffffff 75%);
+            &__num {
+                position: absolute;
+                // left: 65%;
+                bottom: 12px;
+                font-size: 12px;
+                line-height: 18px;
+                color: white;
+                padding: 8px;
+                background: rgba(24, 160, 251, 1);
+                border-radius: 10px 10px 0 10px;
+                -webkit-border-radius: 10px 10px 0 10px;
+                -moz-border-radius: 10px 10px 0 10px;
+                -ms-border-radius: 10px 10px 0 10px;
+                -o-border-radius: 10px 10px 0 10px;
+            }
+        }
+
+        &__line2 {
+            width: 60%;
+            height: 5px;
+            position: relative;
+            border: 1.5px solid #C4C4C4;
+            background: -webkit-linear-gradient(left, #4b35f4 84%,#ffffff 85%);
+            &__num {
+                position: absolute;
+                left: 77%;
+                bottom: 12px;
+                font-size: 12px;
+                line-height: 18px;
+                color: white;
+                padding: 8px;
+                background: rgba(57, 25, 251, 1);
+                border-radius: 10px 10px 0 10px;
+                -webkit-border-radius: 10px 10px 0 10px;
+                -moz-border-radius: 10px 10px 0 10px;
+                -ms-border-radius: 10px 10px 0 10px;
+                -o-border-radius: 10px 10px 0 10px;
+            }
+        }
+        
+    }
+
+    .natija {
+        margin-top: 30px;
+        &__tavsiya {
+            font-size: 36px;
+            line-height: 54px;
+            margin: 20px 0;
+        }
+        &__block {
+            font-size: 28px;
+            line-height: 42px;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.admin {
+    margin-top: 50px;
+    display: flex;
+    // border: 1px solid red;
+    justify-content: space-between;
+    padding: 0;
+    &__sidebar{
+        width: 15%; 
+        min-height: 600px;
+        position: relative;
+        font-size: 22px;
+        line-height: 33px;
+        &__nav {
+            text-decoration: none;
+            display: flex;
+            color: black;
+            text-align: start;
+            margin-top: 20px;
+            & > img {
+                margin-right: 25px;
+            }
+            &:nth-child(2) {
+                color: #18A0FB;
+            }
+        }
+        &__exit {
+            width: 100%;
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            padding: 10px;
+            border: none;
+            outline: none;
+            background: none;
+            & > img {
+                margin-right: 10px;
+                width: 25px;
+            }
+            &:active {
+                box-shadow: 0 0 5px black;
+            }
+        }
+    }
+
+    .rewards {
+        width: 70%;
+        .natijalar {
+            display: flex;
+            justify-content: space-between!important;
+            width: 70%;
+            .natijalar__name {
+                font-size: 20px;
+                line-height: 27px;
+                // margin-left: 20px;
+            }
+        }
+        .block{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            &__box {
+                display: flex;
+                flex-direction: column;
+                width: 33%;
+                &__name {
+                    font-size: 18px;
+                    line-height: 22px;
+                    margin:5px;
+
+                }
+            }
+        }
+    }
+}

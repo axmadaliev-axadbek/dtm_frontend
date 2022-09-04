@@ -1,0 +1,58 @@
+.balls {
+    margin-top: 50px;
+    min-width: 1400px!important;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__title {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    &__filter {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        // width: 60px;
+        font-size: 15px;
+        line-height: 22px;
+        width: 85px;
+        outline: none;
+        background: none;
+        border: 1px solid #AAAAAA;
+        border-radius: 20px;
+        &:active {
+            box-shadow: 0 0 8px black;
+        }
+    }
+
+    .reyting {
+        margin-top: 50px;
+        &__nav {
+            border-bottom: 1px solid #AEAEAE;
+            display: flex;
+            padding: 15px;
+            justify-content: space-between;
+            align-items: center;
+            &__title {
+                font-size: 20px;
+                line-height: 30px;
+                border-right: 1px solid #AEAEAE;;
+                // transform: rotate(90deg);
+                width: 20%;
+                padding: 10px;
+                margin-right: 5px;
+                &:nth-child(6) {
+                    width: 15%;
+                    border: none;
+                }
+            }
+            &__id {
+                width: 8%;
+            }
+        }
+    }
+
+
+}

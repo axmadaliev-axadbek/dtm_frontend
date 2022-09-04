@@ -1,0 +1,100 @@
+.backlink {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+    display: flex;
+    &:active {
+        text-decoration: underline;
+    }
+    &__row {
+        margin-right: 20px;
+    }
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 720px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 25px rgba(187, 187, 187, 0.35);
+    border-radius: 20px;
+    text-align: center;
+    &__title {
+        font-size: 35px;
+        line-height: 52px;
+        color: #000000;
+    }
+    &__name {
+        margin-top: 20px ;
+        border: none;
+        border-bottom: 1px solid #BBBBBB;
+        padding: 20px;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        color: #666666;
+        &::placeholder {
+            color: #BBBBBB;
+        }
+    }
+
+    &__city {
+        margin-top: 20px ;
+        border: none;
+        border-bottom: 1px solid #BBBBBB;
+        padding: 20px;
+        outline: none;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgb(163, 159, 159);
+    }
+    input[type='radio'] {
+        width: 54px;
+        height: 24px;
+        background: #000000;
+        accent-color:  #000000;
+    }
+    &__gender{
+        font-size: 17px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &__div {
+        display: flex;
+        margin-top: 50px;
+    }
+    &__submit {
+        margin-top: 20px;
+        padding: 15px;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+        background: #FFFFFF;
+        border: 1px solid #18A0FB;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        transition: all 0.5s ;
+        -webkit-transition: all 0.5s ;
+        -moz-transition: all 0.5s ;
+        -ms-transition: all 0.5s ;
+        -o-transition: all 0.5s ;
+        &:active {
+            background: #18A0FB;
+            color: white;
+        }
+    }
+    &__link{
+        margin-top: 25px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>DTM</title>
+</head>
+<body>
+       
+   <a href="subjects.html" class="backBtn">
+        <img class="backBtn__img" src="../Img/backbluelink.png" alt="">
+   </a>
+
+    <section id="questions" class="container questions">   
+
+    </section>
+    <button id="finishBtn" type="button" class="container finishBtn">Yakunlash</button>
+
+    <template id="testList-template">
+        <div class="savol">
+            <h3 id="savol" class="savol__intro">#1 Choose the answer which correctly completes the sentence.
+                When I got home I found an envelope on the table. In it was a … card from Aunt Alice for passing my French exam.</h3>
+            <ul id="variantsList" class="test">
+                <li id="variant" class="test__block">
+                    <input id="inputAns" type="radio" name="answer" id="a" class="answer">
+                    <label id="labelAns" class="options" for="a" id="a_text">a</label>
+                </li>
+                <li class="test__block wrongAns" >
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label class="options" for="b" id="a_text">b</label>
+                </li>
+                <li class="test__block" class="correctAns">
+                    <input type="radio" name="answer" checked id="c" class="correctAns__input">
+                    <label for="c" class="correctAns__label" id="a_text">c</label>
+                </li>
+                <li class="test__block" >
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label class="options" for="d" id="a_text">d</label>
+                </li>
+            </ul>
+        </div>
+    </template>
+</body>
+<script src="../js/tests.js"></script>
+</html>

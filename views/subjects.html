@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>DTM</title>
+</head>
+<body>
+        
+        <ul class="container nav">
+            <li class="nav__item">
+                <a target="_blank" href="admin.html" class="nav__item__link">Results</a>
+            </li>
+            <li class="nav__item">
+                <a target="_blank" href="reyting.html" class="nav__item__link">Reyting</a>
+            </li>
+        </ul>
+    <section class="container main">
+        <h2 class="main__title">Assosiy Imtihonga hush kelibsiz</h2>
+        <div class="steps">
+            <a class="steps__link active__step">1</a>
+            <span class="steps__line"></span>
+            <a class="steps__link">2</a>
+            <span class="steps__line"></span>
+            <a class="steps__link">3</a>
+        </div>
+
+
+
+        <div class="subject">
+            <label class="subject__title"  for="firstSubject"  >Birinchi fan</label>
+                <select id="firstSubjectSelect"  class="subject__select">
+                    <option>Blok 1</option>
+                    <option value="1">Matematika</option>
+                    <option value="5">Kimyo</option>
+                </select>
+        
+        <label class="subject__title" for="firstSubject">Ikkinchi fan</label>
+            <select id="secondSubjectSelect"  class="subject__select">
+                <option>Blok 2</option>
+                <option value="2">Ingliz tili</option>
+                <option value="3">Fizika</option>
+                <option value="4">Biologiya</option>
+            </select>
+        </div>
+        
+        <a id="nextBtn" class="main__next"> Next </a> 
+        
+
+    </section>
+
+</body>
+<script src="../js/subjects.js"></script>
+</html>

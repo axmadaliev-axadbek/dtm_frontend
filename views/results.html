@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>DTM</title>
+</head>
+<body>
+    <ul class="container nav">
+        <li class="nav__item">
+            <a target="_blank" href="subjects.html" class="nav__item__link">Subjects</a>
+        </li>
+        <li class="nav__item">
+            <a target="_blank" href="admin.html" class="nav__item__link">Results</a>
+        </li>
+        <li class="nav__item">
+            <a target="_blank" href="reyting.html" class="nav__item__link">Reyting</a>
+        </li>
+    </ul>
+    <section class="container javoblar">
+        <img class="logo" src="../Img/logo.png" alt="logo">
+
+        <h3 class="javoblar__title">Assosiy</h3>
+        <div class="result">
+            <div class="result__block">
+                <h2 id="firstSubjectTitle" class="result__block__fan">Ingiliz tili</h2>
+                <div  class="result__line1" id="line1">
+                    <span id="firstSubjectProcent" class="result__line1__num"></span>
+                </div>
+                <h4 class="result__100">100%</h4>
+                
+                <div id="firstSubjectScore" class="result__block__nums"></div>
+            </div>
+
+            <div class="result__block">
+                <h2 id="seondSubjectTitle" class="result__block__fan">Fizika</h2>
+                <div class="result__line2">
+                    <span id="secondSubjectProcent" class="result__line2__num"></span>
+                </div>
+                <h4 class="result__100">100%</h4>
+                
+                <div id="secondSubjectScore" class="result__block__nums"></div>
+            </div>
+        </div>
+
+        <div id="natija" class="natija">
+            <div class="natija__tavsiya">Natija: <span id="recomendation" class="natija__res">Tavsiya etildi</span></div>
+            <div class="natija__block">
+                Ta'lim muassasi: <span id="university" class="natija__block__title"> </span>
+            </div>
+            <div class="natija__block">
+                Yo'nalish: <span id="faculty" class="natija__block__title"> </span>
+            </div>
+            <div class="natija__block">
+                Ta'lim turi: <span  id="typeEducation" class="natija__block__title"></span>
+            </div>
+        </div>
+        <div id="natija2" class="natija__tavsiya">Natija: <span id="recomendation2" class="natija__res">Tavsiya etildi</span></div>
+           
+         
+         
+    </section>
+</body>
+<script src="../js/result.js"></script>
+</html>

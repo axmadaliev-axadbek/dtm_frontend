@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>DTM OFFICIAL</title>
+</head>
+<body>
+        <a href="main.html" class="container backlink">
+            <img class="backlink__row" src="../Img/backrow.png" alt="">
+            Orqaga
+        </a>
+
+    <form id="register-form"  class="login">
+        <h2 class="login__title"> 
+            Royhatdan otish
+        </h2>
+
+        <input id="fullnameInput" type="text" placeholder="Full name" class="login__name" autocomplete="on">
+
+        <input autocomplete="on" id="contactInput" type="text" placeholder="Email or Phone" class="login__name" >
+
+        <input autocomplete="on" id="usernameInput" type="text" placeholder="Username" class="login__name">
+
+        <select id="state"  class="login__city">
+            <option>Viloyat</option>
+            <option value="1">Andijan Viloyati</option>
+            <option value="2">Bukhara Viloyati</option>
+            <option value="3">Fergana Viloyati</option>
+            <option value="4">Jizzakh Viloyati</option>
+            <option value="5">Karakalpakstan Respublikasi</option>
+            <option value="6">Namangan Viloyati</option>
+            <option value="7">Navoiy Viloyati</option>
+            <option value="8">Qashqadaryo Viloyati</option>
+            <option value="9">Samarqand Viloyati</option>
+            <option value="10">Sirdaryo Viloyati</option>
+            <option value="11">Surxondaryo Viloyati</option>
+            <option value="12">Tashkent Shaxri</option>
+            <option value="13">Tashkent Viloyati</option>
+            <option value="14">Xorazm Viloyati</option>
+        </select>
+
+        <input autocomplete="on" id="passwordInput" type="password" placeholder="Password" class="login__name">
+        
+        <div class="login__div">
+            <input  class="login__radio" type="radio" id="erkak" name="gender"  value="male">
+            <label class="login__gender" for="erkak">Erkak</label>
+
+            <input type="radio" name="gender"  id="ayol"  value="female">
+            <label  class="login__gender" for="Ayol">Ayol</label>
+        </div>
+
+        <button  class="login__submit" type="submit">Royhatdan otish</button>
+
+        
+        <a href="login.html" class="login__link">Hisobingiz bormi? Kirish</a>
+    </form>
+    
+
+
+
+</body>
+<script src="../js/register.js"></script>
+</html>

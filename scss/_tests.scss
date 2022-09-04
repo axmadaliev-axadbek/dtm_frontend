@@ -1,0 +1,108 @@
+.questions {
+    margin-bottom: 100px;
+    margin-top: 70px;
+    // position: ;
+    &__title {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .savol{
+        margin-top: 20px;
+        border-bottom: 1px solid #AAAAAA;
+        padding-bottom: 20px ;
+        &__intro {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 40px;
+        }
+        &__savol {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 40px;
+        }
+    }
+    .test {
+        list-style: none;
+        &__block {
+            font-size: 18px;
+            line-height: 27px;
+            .answer {
+              accent-color: #18A0FB!important;
+            }
+        }
+        .options {
+            font-size: 18px;
+            line-height: 27px;
+            color: #AEAEAE;
+            margin-left: 5px;
+        }
+    }
+
+    .correctAns {
+        & > label {
+            font-size: 18px;
+            line-height: 27px;
+            margin-left: 5px;
+            color: #18A0FB!important;
+        }
+        &__input {
+            accent-color: #18A0FB!important;
+        }
+    }
+    .notActive {
+        pointer-events: none!important;
+        // pointer-events: initial!important;
+    }
+    .wrongAns {
+        & > label {
+            font-size: 18px;
+            line-height: 27px;
+            margin-left: 5px;
+            color: red!important;
+        }
+        & > input {
+            accent-color:  red!important;
+        }
+    }
+    
+}
+
+.backBtn {
+    border: none;
+    outline: none;
+    width: 70px;
+    position: absolute;
+    right: 0%;
+    top: 0;
+    // &__img {
+    //     // width: 100%;
+    // }
+}
+
+.finishBtn {
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #0549f5;
+    transition: all 0.5s ;
+    -webkit-transition: all 0.5s ;
+    -moz-transition: all 0.5s ;
+    -ms-transition: all 0.5s ;
+    -o-transition: all 0.5s ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    &:active {
+        background: rgb(22, 128, 234);
+        color: white;
+    }
+    margin-bottom: 40px!important;
+    margin-left: 500px!important;
+    width: 400px;
+    border: 1px solid #AAAAAA;;
+}
